@@ -32,7 +32,7 @@ window.config(bg=white)
 window.config(padx=100, pady=50)
 
 canva = tk.Canvas(width=250, height=250, bg=white, highlightthickness=0)
-clockPhoto = tk.PhotoImage(file="saat.png")
+clockPhoto = tk.PhotoImage(file="alarm_clock.png")
 canva.create_image(125, 125, image=clockPhoto)
 timerText = canva.create_text(133, 160, font=("ariel", 15, "bold"), text="00:00")
 canva.grid(column=1, row=1)
